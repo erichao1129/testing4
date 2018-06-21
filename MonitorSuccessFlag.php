@@ -11,7 +11,7 @@ class MonitorSuccessFlag
 	private $crawlAttempt = 'crawl_attempt';
 	private $attemptDate;
 	private $successFlag;
-
+	sss
 	public function setDatabase($databse)
 	{
 		$this->database = $database;
