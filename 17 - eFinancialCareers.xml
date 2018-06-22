@@ -293,7 +293,7 @@
                                   <Selection SelectionMissingOption="IgnoreCommand" IsSelectHiddenAndDisabledWebElements="True">
                                     <SelectionPaths>
                                       <SelectionPath>
-                                        <Xpath>//a[@class='card-title-link card-title-padding']</Xpath>
+                                        <Xpath>//a[@class='card-title-link align-middle']</Xpath>
                                       </SelectionPath>
                                     </SelectionPaths>
                                   </Selection>
@@ -600,7 +600,7 @@ End Class
                                   <Selection SelectionMissingOption="IgnoreCommand" IsSelectHiddenAndDisabledWebElements="True">
                                     <SelectionPaths>
                                       <SelectionPath>
-                                        <Xpath>//a[@class='card-title-link card-title-padding']</Xpath>
+                                        <Xpath>//a[@class='card-title-link align-middle']</Xpath>
                                       </SelectionPath>
                                     </SelectionPaths>
                                   </Selection>
