@@ -1,0 +1,1485 @@
+<Agent Version="2.48.3" AgentId="a3e12f63-ae58-428f-820d-4d9fda026609" SelectionTreeMaxSelection="100" SelectionTreeMaxExpansion="10" XPathFactoryMaxInnerProspects="100" SessionSupport="Multiple" IsSeparateSessionTables="False" IsAlwaysSeparateExportedSessionData="True" RemoveSession="Immediately" IsCleanupExternalSessionData="True" DelayBetweenPerformanceSessions="5000" UserAgent="Default" UserAgentString="" BrowserLanguage="" BasicAuthenticationUsername="" BasicAuthenticationPassword="" MaxActiveWebBrowsers="1" IsDefaultNumberOfWebBrowsers="False" MaxActiveParsers="5" RotateWebBrowserProfile="NoRotation" RotateUserAgent="NoRotation" ClearCookiesAndSession="None" ClearStorageMethod="Default" RuntimeBrowserWidth="1300" RuntimeBrowserHeight="700" FailAgentOnErrorCount="1" LoadBrowserImages="Default" LoadStyleSheets="Default" UseDataCountFailureThreshold="False" DataCountFailureThreshold="75" KeepConnectionAlive="Default" ClearCacheOnStart="True" CacheLocation="InMemory" CustomCachePath="" DefaultLogLevel="High" IsDefaultLogTofile="True" IsJavaScriptDesignUtillities="True" DefaultLogPath="" ParserCacheMethod="Default" ObeyRobotsRules="DesignTimeWarning" IsJsonParserCompatibilityMode="False" IsLoadWebGl="False" IsLoadFlash="False" MaintainSession="WithBrowser">
+  <Url ProcessingMode="Default" IsIgnoreInvalidUrls="False" IsFollowPageUrl="True" DownloadDocumentCommand="00000000-0000-0000-0000-000000000000">
+    <DataList DataMissingOption="Default">
+      <ListContainer IsProcessInSessions="True">
+        <Container convertRowsIntoColumnsNameCommandId="00000000-0000-0000-0000-000000000000" convertRowsIntoColumnsValueCommandId="00000000-0000-0000-0000-000000000000" IsRepeatWhileSelectionValid="False" ExportTableName="" ExportPluralTableName="" ExportIdColumnName="" ExportEmptyRowIfNoData="True" ExportMethod="AddRows" HistoricalTableName="" UseTemplateReference="False" TemplatePath="">
+          <Command Id="4422b86f-8fa4-45de-bc85-ecfd48ebe6d4" Name="17 - eFinancialCareers" Description="" IsDisabled="False" IsDebugDisabled="False" IsDebugBreakPoint="False" DebugErrorOption="Notify" IsExport="True" IsNotifyOnCriticalError="True" IsIncreaseDataCount="False">
+            <TransformCommand>
+              <Script IsEnabled="False" Id="61d9a0cb-b3b9-4f6e-b9f0-0308f4a988ac" ScriptLanguage="Csharp" UseTemplateReference="False" TemplatePath="">
+                <CsharpScript>
+                </CsharpScript>
+                <VbScript>
+                </VbScript>
+                <LibraryMethodName>
+                </LibraryMethodName>
+                <UseSharedLibrary>False</UseSharedLibrary>
+                <UseDefaultLibrary>True</UseDefaultLibrary>
+                <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+                <CustomParameter>
+                </CustomParameter>
+              </Script>
+            </TransformCommand>
+          </Command>
+          <ChildElements>
+            <DataValue>
+              <DataConsumer ProviderContainerId="4422b86f-8fa4-45de-bc85-ecfd48ebe6d4" ProviderColumnName="crawling_url" InputParameterName="" CapturedDataCommandId="00000000-0000-0000-0000-000000000000" Source="DataProvider">
+                <ContentTransformationScript>
+                  <TransformationScript>
+                    <Script IsEnabled="False" Id="210b518a-7d5e-442e-a211-1178d06cb3b6" ScriptLanguage="Regex" UseTemplateReference="False" TemplatePath="">
+                      <CsharpScript>
+                      </CsharpScript>
+                      <VbScript>
+                      </VbScript>
+                      <LibraryMethodName>
+                      </LibraryMethodName>
+                      <UseSharedLibrary>False</UseSharedLibrary>
+                      <UseDefaultLibrary>True</UseDefaultLibrary>
+                      <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+                      <CustomParameter>
+                      </CustomParameter>
+                    </Script>
+                  </TransformationScript>
+                </ContentTransformationScript>
+              </DataConsumer>
+              <Capture DataType="ShortText" MaxDataLength="4000" IsCreateIndex="False" IsAlwaysUpdateDesignValue="False" IsUserDefinedDesignValue="False" IsDataValue="True" ExcelColumnFormat="" ExcelColumnWidth="150" SortOrder="1000" IsKeyColumn="False" IsExcludeFromChangeTracking="False" MergeRowsValueSeparator="," MergeRowsMethod="Concatenate" IsCopyToParent="False">
+                <Command Id="25582f74-86d2-46c5-8350-8a299d3c14e1" Name="Crawling Url" Description="" IsDisabled="False" IsDebugDisabled="False" IsDebugBreakPoint="False" DebugErrorOption="Notify" IsExport="True" IsNotifyOnCriticalError="True" IsIncreaseDataCount="False">
+                  <TransformCommand>
+                    <Script IsEnabled="False" Id="01bfbe57-584f-4d8f-99a9-c5e24ff249aa" ScriptLanguage="Csharp" UseTemplateReference="False" TemplatePath="">
+                      <CsharpScript>
+                      </CsharpScript>
+                      <VbScript>
+                      </VbScript>
+                      <LibraryMethodName>
+                      </LibraryMethodName>
+                      <UseSharedLibrary>False</UseSharedLibrary>
+                      <UseDefaultLibrary>True</UseDefaultLibrary>
+                      <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+                      <CustomParameter>
+                      </CustomParameter>
+                    </Script>
+                  </TransformCommand>
+                </Command>
+                <ContentTransformationScript>
+                  <TransformationScript>
+                    <Script IsEnabled="False" Id="00f0d9a6-c178-4d9f-8e8d-e96d088d5ba2" ScriptLanguage="Regex" UseTemplateReference="False" TemplatePath="">
+                      <CsharpScript>
+                      </CsharpScript>
+                      <VbScript>
+                      </VbScript>
+                      <LibraryMethodName>
+                      </LibraryMethodName>
+                      <UseSharedLibrary>False</UseSharedLibrary>
+                      <UseDefaultLibrary>True</UseDefaultLibrary>
+                      <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+                      <CustomParameter>
+                      </CustomParameter>
+                    </Script>
+                  </TransformationScript>
+                </ContentTransformationScript>
+                <DataConsumer ProviderContainerId="4422b86f-8fa4-45de-bc85-ecfd48ebe6d4" ProviderColumnName="crawling_url" InputParameterName="" CapturedDataCommandId="00000000-0000-0000-0000-000000000000" Source="DataProvider">
+                  <ContentTransformationScript>
+                    <TransformationScript>
+                      <Script IsEnabled="False" Id="210b518a-7d5e-442e-a211-1178d06cb3b6" ScriptLanguage="Regex" UseTemplateReference="False" TemplatePath="">
+                        <CsharpScript>
+                        </CsharpScript>
+                        <VbScript>
+                        </VbScript>
+                        <LibraryMethodName>
+                        </LibraryMethodName>
+                        <UseSharedLibrary>False</UseSharedLibrary>
+                        <UseDefaultLibrary>True</UseDefaultLibrary>
+                        <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+                        <CustomParameter>
+                        </CustomParameter>
+                      </Script>
+                    </TransformationScript>
+                  </ContentTransformationScript>
+                </DataConsumer>
+              </Capture>
+            </DataValue>
+            <DataValue>
+              <DataConsumer ProviderContainerId="4422b86f-8fa4-45de-bc85-ecfd48ebe6d4" ProviderColumnName="country" InputParameterName="" CapturedDataCommandId="00000000-0000-0000-0000-000000000000" Source="DataProvider">
+                <ContentTransformationScript>
+                  <TransformationScript>
+                    <Script IsEnabled="False" Id="d2952e8d-4fc3-4948-a249-4ea148ddb378" ScriptLanguage="Regex" UseTemplateReference="False" TemplatePath="">
+                      <CsharpScript>
+                      </CsharpScript>
+                      <VbScript>
+                      </VbScript>
+                      <LibraryMethodName>
+                      </LibraryMethodName>
+                      <UseSharedLibrary>False</UseSharedLibrary>
+                      <UseDefaultLibrary>True</UseDefaultLibrary>
+                      <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+                      <CustomParameter>
+                      </CustomParameter>
+                    </Script>
+                  </TransformationScript>
+                </ContentTransformationScript>
+              </DataConsumer>
+              <Capture DataType="ShortText" MaxDataLength="4000" IsCreateIndex="False" IsAlwaysUpdateDesignValue="False" IsUserDefinedDesignValue="False" IsDataValue="True" ExcelColumnFormat="" ExcelColumnWidth="150" SortOrder="1000" IsKeyColumn="False" IsExcludeFromChangeTracking="False" MergeRowsValueSeparator="," MergeRowsMethod="Concatenate" IsCopyToParent="False">
+                <Command Id="e90cfbeb-7178-49b1-89bc-8fb84efc2a43" Name="Country" Description="" IsDisabled="False" IsDebugDisabled="False" IsDebugBreakPoint="False" DebugErrorOption="Notify" IsExport="True" IsNotifyOnCriticalError="True" IsIncreaseDataCount="False">
+                  <TransformCommand>
+                    <Script IsEnabled="False" Id="bb102a24-38b8-4275-9ca6-1d8937fbc228" ScriptLanguage="Csharp" UseTemplateReference="False" TemplatePath="">
+                      <CsharpScript>
+                      </CsharpScript>
+                      <VbScript>
+                      </VbScript>
+                      <LibraryMethodName>
+                      </LibraryMethodName>
+                      <UseSharedLibrary>False</UseSharedLibrary>
+                      <UseDefaultLibrary>True</UseDefaultLibrary>
+                      <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+                      <CustomParameter>
+                      </CustomParameter>
+                    </Script>
+                  </TransformCommand>
+                </Command>
+                <ContentTransformationScript>
+                  <TransformationScript>
+                    <Script IsEnabled="False" Id="8862538c-c944-49de-a13c-e3009442486e" ScriptLanguage="Regex" UseTemplateReference="False" TemplatePath="">
+                      <CsharpScript>
+                      </CsharpScript>
+                      <VbScript>
+                      </VbScript>
+                      <LibraryMethodName>
+                      </LibraryMethodName>
+                      <UseSharedLibrary>False</UseSharedLibrary>
+                      <UseDefaultLibrary>True</UseDefaultLibrary>
+                      <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+                      <CustomParameter>
+                      </CustomParameter>
+                    </Script>
+                  </TransformationScript>
+                </ContentTransformationScript>
+                <DataConsumer ProviderContainerId="4422b86f-8fa4-45de-bc85-ecfd48ebe6d4" ProviderColumnName="country" InputParameterName="" CapturedDataCommandId="00000000-0000-0000-0000-000000000000" Source="DataProvider">
+                  <ContentTransformationScript>
+                    <TransformationScript>
+                      <Script IsEnabled="False" Id="d2952e8d-4fc3-4948-a249-4ea148ddb378" ScriptLanguage="Regex" UseTemplateReference="False" TemplatePath="">
+                        <CsharpScript>
+                        </CsharpScript>
+                        <VbScript>
+                        </VbScript>
+                        <LibraryMethodName>
+                        </LibraryMethodName>
+                        <UseSharedLibrary>False</UseSharedLibrary>
+                        <UseDefaultLibrary>True</UseDefaultLibrary>
+                        <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+                        <CustomParameter>
+                        </CustomParameter>
+                      </Script>
+                    </TransformationScript>
+                  </ContentTransformationScript>
+                </DataConsumer>
+              </Capture>
+            </DataValue>
+            <Group>
+              <Container convertRowsIntoColumnsNameCommandId="00000000-0000-0000-0000-000000000000" convertRowsIntoColumnsValueCommandId="00000000-0000-0000-0000-000000000000" IsRepeatWhileSelectionValid="False" ExportTableName="" ExportPluralTableName="" ExportIdColumnName="" ExportEmptyRowIfNoData="True" ExportMethod="AddColumns" HistoricalTableName="" UseTemplateReference="False" TemplatePath="">
+                <Command Id="190d1078-0d7a-4010-a104-97e31d834d94" Name="eFinancialCareers" Description="" IsDisabled="False" IsDebugDisabled="False" IsDebugBreakPoint="False" DebugErrorOption="Notify" IsExport="True" IsNotifyOnCriticalError="True" IsIncreaseDataCount="False">
+                  <TransformCommand>
+                    <Script IsEnabled="False" Id="e0c0d4cf-98bd-4df3-a667-33096ad46c1e" ScriptLanguage="Csharp" UseTemplateReference="False" TemplatePath="">
+                      <CsharpScript>
+                      </CsharpScript>
+                      <VbScript>
+                      </VbScript>
+                      <LibraryMethodName>
+                      </LibraryMethodName>
+                      <UseSharedLibrary>False</UseSharedLibrary>
+                      <UseDefaultLibrary>True</UseDefaultLibrary>
+                      <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+                      <CustomParameter>
+                      </CustomParameter>
+                    </Script>
+                  </TransformCommand>
+                </Command>
+                <ChildElements>
+                  <Group>
+                    <Container convertRowsIntoColumnsNameCommandId="00000000-0000-0000-0000-000000000000" convertRowsIntoColumnsValueCommandId="00000000-0000-0000-0000-000000000000" IsRepeatWhileSelectionValid="False" ExportTableName="" ExportPluralTableName="" ExportIdColumnName="" ExportEmptyRowIfNoData="True" ExportMethod="AddColumns" HistoricalTableName="" UseTemplateReference="False" TemplatePath="">
+                      <Command Id="23745644-16b8-4c96-9d23-927e4f6eec61" Name="Next Page Group" Description="" IsDisabled="False" IsDebugDisabled="False" IsDebugBreakPoint="False" DebugErrorOption="Notify" IsExport="True" IsNotifyOnCriticalError="True" IsIncreaseDataCount="False">
+                        <TransformCommand>
+                          <Script IsEnabled="False" Id="fac5e766-d8a1-46e3-870f-b6039a556184" ScriptLanguage="Csharp" UseTemplateReference="False" TemplatePath="">
+                            <CsharpScript>
+                            </CsharpScript>
+                            <VbScript>
+                            </VbScript>
+                            <LibraryMethodName>
+                            </LibraryMethodName>
+                            <UseSharedLibrary>False</UseSharedLibrary>
+                            <UseDefaultLibrary>True</UseDefaultLibrary>
+                            <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+                            <CustomParameter>
+                            </CustomParameter>
+                          </Script>
+                        </TransformCommand>
+                      </Command>
+                      <ChildElements>
+                        <HtmlList EditorIndex="1">
+                          <ListContainer IsProcessInSessions="True">
+                            <Container convertRowsIntoColumnsNameCommandId="00000000-0000-0000-0000-000000000000" convertRowsIntoColumnsValueCommandId="00000000-0000-0000-0000-000000000000" IsRepeatWhileSelectionValid="False" ExportTableName="" ExportPluralTableName="" ExportIdColumnName="" ExportEmptyRowIfNoData="True" ExportMethod="AddRows" HistoricalTableName="" UseTemplateReference="False" TemplatePath="">
+                              <Command Id="01c8e67a-9f9b-4eb2-81bb-9346f93e5c85" Name="Job List" Description="" IsDisabled="False" IsDebugDisabled="False" IsDebugBreakPoint="False" DebugErrorOption="Notify" IsExport="True" IsNotifyOnCriticalError="True" IsIncreaseDataCount="False">
+                                <TransformCommand>
+                                  <Script IsEnabled="False" Id="dc3c726b-41d5-45dd-97d9-f253ae5321a1" ScriptLanguage="Csharp" UseTemplateReference="False" TemplatePath="">
+                                    <CsharpScript>
+                                    </CsharpScript>
+                                    <VbScript>
+                                    </VbScript>
+                                    <LibraryMethodName>
+                                    </LibraryMethodName>
+                                    <UseSharedLibrary>False</UseSharedLibrary>
+                                    <UseDefaultLibrary>True</UseDefaultLibrary>
+                                    <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+                                    <CustomParameter>
+                                    </CustomParameter>
+                                  </Script>
+                                </TransformCommand>
+                              </Command>
+                              <ChildElements>
+                                <HtmlCapture HtmlAttribute="Text" IsConcatenateContent="False" ConcatenateContentSeparate=" ">
+                                  <Capture DataType="ShortText" MaxDataLength="4000" IsCreateIndex="False" IsAlwaysUpdateDesignValue="False" IsUserDefinedDesignValue="False" IsDataValue="False" ExcelColumnFormat="" ExcelColumnWidth="150" SortOrder="1000" IsKeyColumn="False" IsExcludeFromChangeTracking="False" MergeRowsValueSeparator="," MergeRowsMethod="Concatenate" IsCopyToParent="False">
+                                    <Command Id="870f7c59-58c6-4b97-84ea-576a2b2824ff" Name="Position Title" Description="" IsDisabled="False" IsDebugDisabled="False" IsDebugBreakPoint="False" DebugErrorOption="Notify" IsExport="True" IsNotifyOnCriticalError="True" IsIncreaseDataCount="False">
+                                      <TransformCommand>
+                                        <Script IsEnabled="False" Id="f809866b-2718-4998-98dd-39697cf80b2d" ScriptLanguage="Csharp" UseTemplateReference="False" TemplatePath="">
+                                          <CsharpScript>
+                                          </CsharpScript>
+                                          <VbScript>
+                                          </VbScript>
+                                          <LibraryMethodName>
+                                          </LibraryMethodName>
+                                          <UseSharedLibrary>False</UseSharedLibrary>
+                                          <UseDefaultLibrary>True</UseDefaultLibrary>
+                                          <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+                                          <CustomParameter>
+                                          </CustomParameter>
+                                        </Script>
+                                      </TransformCommand>
+                                    </Command>
+                                    <ContentTransformationScript>
+                                      <TransformationScript>
+                                        <Script IsEnabled="False" Id="d76cf2b3-222f-4a12-9de7-747708231db6" ScriptLanguage="Regex" UseTemplateReference="False" TemplatePath="">
+                                          <CsharpScript>
+                                          </CsharpScript>
+                                          <VbScript>
+                                          </VbScript>
+                                          <LibraryMethodName>
+                                          </LibraryMethodName>
+                                          <UseSharedLibrary>False</UseSharedLibrary>
+                                          <UseDefaultLibrary>True</UseDefaultLibrary>
+                                          <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+                                          <CustomParameter>
+                                          </CustomParameter>
+                                        </Script>
+                                      </TransformationScript>
+                                    </ContentTransformationScript>
+                                    <DataConsumer ProviderContainerId="00000000-0000-0000-0000-000000000000" ProviderColumnName="Default" InputParameterName="" CapturedDataCommandId="00000000-0000-0000-0000-000000000000" Source="DataProvider">
+                                      <ContentTransformationScript>
+                                        <TransformationScript>
+                                          <Script IsEnabled="False" Id="2bfb868c-ea6a-439e-b709-8a89fd4f0142" ScriptLanguage="Regex" UseTemplateReference="False" TemplatePath="">
+                                            <CsharpScript>
+                                            </CsharpScript>
+                                            <VbScript>
+                                            </VbScript>
+                                            <LibraryMethodName>
+                                            </LibraryMethodName>
+                                            <UseSharedLibrary>False</UseSharedLibrary>
+                                            <UseDefaultLibrary>True</UseDefaultLibrary>
+                                            <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+                                            <CustomParameter>
+                                            </CustomParameter>
+                                          </Script>
+                                        </TransformationScript>
+                                      </ContentTransformationScript>
+                                    </DataConsumer>
+                                  </Capture>
+                                  <Selection SelectionMissingOption="IgnoreCommand" IsSelectHiddenAndDisabledWebElements="True">
+                                    <SelectionPaths>
+                                      <SelectionPath>
+                                        <Xpath>//a[@class='card-title-link align-middle']</Xpath>
+                                      </SelectionPath>
+                                    </SelectionPaths>
+                                  </Selection>
+                                </HtmlCapture>
+                                <HtmlCapture HtmlAttribute="Text" IsConcatenateContent="False" ConcatenateContentSeparate=" ">
+                                  <Capture DataType="ShortText" MaxDataLength="4000" IsCreateIndex="False" IsAlwaysUpdateDesignValue="False" IsUserDefinedDesignValue="False" IsDataValue="False" ExcelColumnFormat="" ExcelColumnWidth="150" SortOrder="1000" IsKeyColumn="False" IsExcludeFromChangeTracking="False" MergeRowsValueSeparator="," MergeRowsMethod="Concatenate" IsCopyToParent="False">
+                                    <Command Id="03103f8b-588e-4bb2-9677-c89ee1e93a1d" Name="Company Name" Description="" IsDisabled="False" IsDebugDisabled="False" IsDebugBreakPoint="False" DebugErrorOption="Notify" IsExport="True" IsNotifyOnCriticalError="True" IsIncreaseDataCount="False">
+                                      <TransformCommand>
+                                        <Script IsEnabled="False" Id="d318b6fc-e935-43ba-bcc0-5c0bbaa8aef5" ScriptLanguage="Csharp" UseTemplateReference="False" TemplatePath="">
+                                          <CsharpScript>
+                                          </CsharpScript>
+                                          <VbScript>
+                                          </VbScript>
+                                          <LibraryMethodName>
+                                          </LibraryMethodName>
+                                          <UseSharedLibrary>False</UseSharedLibrary>
+                                          <UseDefaultLibrary>True</UseDefaultLibrary>
+                                          <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+                                          <CustomParameter>
+                                          </CustomParameter>
+                                        </Script>
+                                      </TransformCommand>
+                                    </Command>
+                                    <ContentTransformationScript>
+                                      <TransformationScript>
+                                        <Script IsEnabled="False" Id="839bf364-568a-43be-b470-226ebd2996d1" ScriptLanguage="Regex" UseTemplateReference="False" TemplatePath="">
+                                          <CsharpScript>
+                                          </CsharpScript>
+                                          <VbScript>
+                                          </VbScript>
+                                          <LibraryMethodName>
+                                          </LibraryMethodName>
+                                          <UseSharedLibrary>False</UseSharedLibrary>
+                                          <UseDefaultLibrary>True</UseDefaultLibrary>
+                                          <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+                                          <CustomParameter>
+                                          </CustomParameter>
+                                        </Script>
+                                      </TransformationScript>
+                                    </ContentTransformationScript>
+                                    <DataConsumer ProviderContainerId="00000000-0000-0000-0000-000000000000" ProviderColumnName="Default" InputParameterName="" CapturedDataCommandId="00000000-0000-0000-0000-000000000000" Source="DataProvider">
+                                      <ContentTransformationScript>
+                                        <TransformationScript>
+                                          <Script IsEnabled="False" Id="32aba092-2d75-4f35-98b9-db74d2f5ecd5" ScriptLanguage="Regex" UseTemplateReference="False" TemplatePath="">
+                                            <CsharpScript>
+                                            </CsharpScript>
+                                            <VbScript>
+                                            </VbScript>
+                                            <LibraryMethodName>
+                                            </LibraryMethodName>
+                                            <UseSharedLibrary>False</UseSharedLibrary>
+                                            <UseDefaultLibrary>True</UseDefaultLibrary>
+                                            <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+                                            <CustomParameter>
+                                            </CustomParameter>
+                                          </Script>
+                                        </TransformationScript>
+                                      </ContentTransformationScript>
+                                    </DataConsumer>
+                                  </Capture>
+                                  <Selection SelectionMissingOption="IgnoreCommand" IsSelectHiddenAndDisabledWebElements="True">
+                                    <SelectionPaths>
+                                      <SelectionPath>
+                                        <Xpath>//ul[@class='list-unstyled']/li[4]</Xpath>
+                                      </SelectionPath>
+                                    </SelectionPaths>
+                                  </Selection>
+                                </HtmlCapture>
+                                <HtmlCapture HtmlAttribute="Text" IsConcatenateContent="False" ConcatenateContentSeparate=" ">
+                                  <Capture DataType="ShortText" MaxDataLength="4000" IsCreateIndex="False" IsAlwaysUpdateDesignValue="False" IsUserDefinedDesignValue="False" IsDataValue="False" ExcelColumnFormat="" ExcelColumnWidth="150" SortOrder="1000" IsKeyColumn="False" IsExcludeFromChangeTracking="False" MergeRowsValueSeparator="," MergeRowsMethod="Concatenate" IsCopyToParent="False">
+                                    <Command Id="cbf37df8-3c17-49db-a755-77e99fb84a22" Name="Location" Description="" IsDisabled="False" IsDebugDisabled="False" IsDebugBreakPoint="False" DebugErrorOption="Notify" IsExport="True" IsNotifyOnCriticalError="True" IsIncreaseDataCount="False">
+                                      <TransformCommand>
+                                        <Script IsEnabled="False" Id="4f5bab0b-af57-4454-8a7f-12ba9af8a030" ScriptLanguage="Csharp" UseTemplateReference="False" TemplatePath="">
+                                          <CsharpScript>
+                                          </CsharpScript>
+                                          <VbScript>
+                                          </VbScript>
+                                          <LibraryMethodName>
+                                          </LibraryMethodName>
+                                          <UseSharedLibrary>False</UseSharedLibrary>
+                                          <UseDefaultLibrary>True</UseDefaultLibrary>
+                                          <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+                                          <CustomParameter>
+                                          </CustomParameter>
+                                        </Script>
+                                      </TransformCommand>
+                                    </Command>
+                                    <ContentTransformationScript>
+                                      <TransformationScript>
+                                        <Script IsEnabled="False" Id="73bcaf2e-1e4d-47c2-9e94-ce8e246e3cff" ScriptLanguage="Regex" UseTemplateReference="False" TemplatePath="">
+                                          <CsharpScript>
+                                          </CsharpScript>
+                                          <VbScript>
+                                          </VbScript>
+                                          <LibraryMethodName>
+                                          </LibraryMethodName>
+                                          <UseSharedLibrary>False</UseSharedLibrary>
+                                          <UseDefaultLibrary>True</UseDefaultLibrary>
+                                          <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+                                          <CustomParameter>
+                                          </CustomParameter>
+                                        </Script>
+                                      </TransformationScript>
+                                    </ContentTransformationScript>
+                                    <DataConsumer ProviderContainerId="00000000-0000-0000-0000-000000000000" ProviderColumnName="Default" InputParameterName="" CapturedDataCommandId="00000000-0000-0000-0000-000000000000" Source="DataProvider">
+                                      <ContentTransformationScript>
+                                        <TransformationScript>
+                                          <Script IsEnabled="False" Id="ecc53fe5-cbd1-44be-9ae4-bbffd91001d1" ScriptLanguage="Regex" UseTemplateReference="False" TemplatePath="">
+                                            <CsharpScript>
+                                            </CsharpScript>
+                                            <VbScript>
+                                            </VbScript>
+                                            <LibraryMethodName>
+                                            </LibraryMethodName>
+                                            <UseSharedLibrary>False</UseSharedLibrary>
+                                            <UseDefaultLibrary>True</UseDefaultLibrary>
+                                            <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+                                            <CustomParameter>
+                                            </CustomParameter>
+                                          </Script>
+                                        </TransformationScript>
+                                      </ContentTransformationScript>
+                                    </DataConsumer>
+                                  </Capture>
+                                  <Selection SelectionMissingOption="IgnoreCommand" IsSelectHiddenAndDisabledWebElements="True">
+                                    <SelectionPaths>
+                                      <SelectionPath>
+                                        <Xpath>//ul[@class='list-unstyled']/li[2]</Xpath>
+                                      </SelectionPath>
+                                    </SelectionPaths>
+                                  </Selection>
+                                </HtmlCapture>
+                                <HtmlCapture HtmlAttribute="Text" IsConcatenateContent="False" ConcatenateContentSeparate=" ">
+                                  <Capture DataType="ShortText" MaxDataLength="4000" IsCreateIndex="False" IsAlwaysUpdateDesignValue="False" IsUserDefinedDesignValue="False" IsDataValue="False" ExcelColumnFormat="" ExcelColumnWidth="150" SortOrder="1000" IsKeyColumn="False" IsExcludeFromChangeTracking="False" MergeRowsValueSeparator="," MergeRowsMethod="Concatenate" IsCopyToParent="False">
+                                    <Command Id="49fed707-2bbf-4a24-8541-fe1394f38c10" Name="Posted Date" Description="" IsDisabled="False" IsDebugDisabled="False" IsDebugBreakPoint="False" DebugErrorOption="Notify" IsExport="True" IsNotifyOnCriticalError="True" IsIncreaseDataCount="False">
+                                      <TransformCommand>
+                                        <Script IsEnabled="False" Id="6feb3cef-1608-4d92-856f-62faa92bab96" ScriptLanguage="Csharp" UseTemplateReference="False" TemplatePath="">
+                                          <CsharpScript>
+                                          </CsharpScript>
+                                          <VbScript>
+                                          </VbScript>
+                                          <LibraryMethodName>
+                                          </LibraryMethodName>
+                                          <UseSharedLibrary>False</UseSharedLibrary>
+                                          <UseDefaultLibrary>True</UseDefaultLibrary>
+                                          <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+                                          <CustomParameter>
+                                          </CustomParameter>
+                                        </Script>
+                                      </TransformCommand>
+                                    </Command>
+                                    <ContentTransformationScript>
+                                      <TransformationScript>
+                                        <Script IsEnabled="True" Id="cc03404a-6f82-4c5f-a8ea-cdb5110bace2" ScriptLanguage="Csharp" UseTemplateReference="False" TemplatePath="">
+                                          <RegexScript>(.*)
+return $1</RegexScript>
+                                          <CsharpScript>using System;
+using Sequentum.ContentGrabber.Api;
+public class Script
+{
+	//See help for a definition of ContentTransformationArguments.
+	public static string TransformContent(ContentTransformationArguments args)
+	{
+		if (args.Content.Contains("New")) {
+			return DateTime.Now.AddDays(-1).ToString("yyyy-MM-dd");
+		} else if (args.Content.Contains("day")) {
+			return DateTime.Now.AddDays(-Convert.ToDouble(args.Content.Substring(0, args.Content.IndexOf("day", StringComparison.Ordinal)))).ToString("yyyy-MM-dd");
+		} else if (args.Content.Contains("week")) {
+			return DateTime.Now.AddDays(-(Convert.ToDouble(args.Content.Substring(0, args.Content.IndexOf("week", StringComparison.Ordinal))) * 7)).ToString("yyyy-MM-dd");
+		}
+		//Place your transformation code here.
+		//This example just returns the input data
+		return args.Content;
+	}
+}
+</CsharpScript>
+                                          <VbScript>Imports System
+Imports Sequentum.ContentGrabber.Api
+Public Class Script
+	'See help for a definition of ContentTransformationArguments.
+	Public Shared Function TransformContent(ByVal args As ContentTransformationArguments) As String
+		'Place your transformation code here.
+		'This example just returns the input data
+		Return args.Content
+	End Function
+End Class
+</VbScript>
+                                          <LibraryMethodName>
+                                          </LibraryMethodName>
+                                          <UseSharedLibrary>False</UseSharedLibrary>
+                                          <UseDefaultLibrary>True</UseDefaultLibrary>
+                                          <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+                                          <CustomParameter>
+                                          </CustomParameter>
+                                        </Script>
+                                      </TransformationScript>
+                                    </ContentTransformationScript>
+                                    <DataConsumer ProviderContainerId="00000000-0000-0000-0000-000000000000" ProviderColumnName="Default" InputParameterName="" CapturedDataCommandId="00000000-0000-0000-0000-000000000000" Source="DataProvider">
+                                      <ContentTransformationScript>
+                                        <TransformationScript>
+                                          <Script IsEnabled="False" Id="70a64692-b1fe-4bb7-9e8d-14818e165107" ScriptLanguage="Regex" UseTemplateReference="False" TemplatePath="">
+                                            <CsharpScript>
+                                            </CsharpScript>
+                                            <VbScript>
+                                            </VbScript>
+                                            <LibraryMethodName>
+                                            </LibraryMethodName>
+                                            <UseSharedLibrary>False</UseSharedLibrary>
+                                            <UseDefaultLibrary>True</UseDefaultLibrary>
+                                            <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+                                            <CustomParameter>
+                                            </CustomParameter>
+                                          </Script>
+                                        </TransformationScript>
+                                      </ContentTransformationScript>
+                                    </DataConsumer>
+                                  </Capture>
+                                  <Selection SelectionMissingOption="IgnoreCommand" IsSelectHiddenAndDisabledWebElements="True">
+                                    <SelectionPaths>
+                                      <SelectionPath>
+                                        <Xpath>//ul[@class='list-unstyled']/li[5]/span</Xpath>
+                                      </SelectionPath>
+                                    </SelectionPaths>
+                                  </Selection>
+                                </HtmlCapture>
+                                <HtmlCapture HtmlAttribute="URL" IsConcatenateContent="False" ConcatenateContentSeparate=" ">
+                                  <Capture DataType="ShortText" MaxDataLength="4000" IsCreateIndex="False" IsAlwaysUpdateDesignValue="False" IsUserDefinedDesignValue="False" IsDataValue="False" ExcelColumnFormat="" ExcelColumnWidth="150" SortOrder="1000" IsKeyColumn="False" IsExcludeFromChangeTracking="False" MergeRowsValueSeparator="," MergeRowsMethod="Concatenate" IsCopyToParent="False">
+                                    <Command Id="d6636871-97b4-4ce6-839a-a481349a2765" Name="Url" Description="" IsDisabled="False" IsDebugDisabled="False" IsDebugBreakPoint="False" DebugErrorOption="Ignore" IsExport="True" IsNotifyOnCriticalError="True" IsIncreaseDataCount="False">
+                                      <TransformCommand>
+                                        <Script IsEnabled="False" Id="5caadd46-8219-4e43-a450-a45974f0a8de" ScriptLanguage="Csharp" UseTemplateReference="False" TemplatePath="">
+                                          <CsharpScript>
+                                          </CsharpScript>
+                                          <VbScript>
+                                          </VbScript>
+                                          <LibraryMethodName>
+                                          </LibraryMethodName>
+                                          <UseSharedLibrary>False</UseSharedLibrary>
+                                          <UseDefaultLibrary>True</UseDefaultLibrary>
+                                          <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+                                          <CustomParameter>
+                                          </CustomParameter>
+                                        </Script>
+                                      </TransformCommand>
+                                    </Command>
+                                    <ContentTransformationScript>
+                                      <TransformationScript>
+                                        <Script IsEnabled="False" Id="7c3cb8c9-5839-4b64-b0ce-0ba36ec1d6b8" ScriptLanguage="Regex" UseTemplateReference="False" TemplatePath="">
+                                          <RegexScript>(.*?)/\?
+return $1</RegexScript>
+                                          <CsharpScript>using System;
+using Sequentum.ContentGrabber.Api;
+public class Script
+{
+	//See help for a definition of ContentTransformationArguments.
+	public static string TransformContent(ContentTransformationArguments args)
+	{
+		//Place your transformation code here.
+		//This example just returns the input data
+		return args.Content;
+	}
+}
+</CsharpScript>
+                                          <VbScript>Imports System
+Imports Sequentum.ContentGrabber.Api
+Public Class Script
+	'See help for a definition of ContentTransformationArguments.
+	Public Shared Function TransformContent(ByVal args As ContentTransformationArguments) As String
+		'Place your transformation code here.
+		'This example just returns the input data
+		Return args.Content
+	End Function
+End Class
+</VbScript>
+                                          <LibraryMethodName>
+                                          </LibraryMethodName>
+                                          <UseSharedLibrary>False</UseSharedLibrary>
+                                          <UseDefaultLibrary>True</UseDefaultLibrary>
+                                          <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+                                          <CustomParameter>
+                                          </CustomParameter>
+                                        </Script>
+                                      </TransformationScript>
+                                    </ContentTransformationScript>
+                                    <DataConsumer ProviderContainerId="00000000-0000-0000-0000-000000000000" ProviderColumnName="Default" InputParameterName="" CapturedDataCommandId="00000000-0000-0000-0000-000000000000" Source="DataProvider">
+                                      <ContentTransformationScript>
+                                        <TransformationScript>
+                                          <Script IsEnabled="False" Id="87514b18-c370-4c0c-99b9-24013dcf13df" ScriptLanguage="Regex" UseTemplateReference="False" TemplatePath="">
+                                            <CsharpScript>
+                                            </CsharpScript>
+                                            <VbScript>
+                                            </VbScript>
+                                            <LibraryMethodName>
+                                            </LibraryMethodName>
+                                            <UseSharedLibrary>False</UseSharedLibrary>
+                                            <UseDefaultLibrary>True</UseDefaultLibrary>
+                                            <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+                                            <CustomParameter>
+                                            </CustomParameter>
+                                          </Script>
+                                        </TransformationScript>
+                                      </ContentTransformationScript>
+                                    </DataConsumer>
+                                  </Capture>
+                                  <Selection SelectionMissingOption="IgnoreCommand" IsSelectHiddenAndDisabledWebElements="True">
+                                    <SelectionPaths>
+                                      <SelectionPath>
+                                        <Xpath>//a[@class='card-title-link align-middle']</Xpath>
+                                      </SelectionPath>
+                                    </SelectionPaths>
+                                  </Selection>
+                                </HtmlCapture>
+                                <HtmlCapture HtmlAttribute="Text" IsConcatenateContent="False" ConcatenateContentSeparate=" ">
+                                  <Capture DataType="ShortText" MaxDataLength="4000" IsCreateIndex="False" IsAlwaysUpdateDesignValue="False" IsUserDefinedDesignValue="False" IsDataValue="False" ExcelColumnFormat="" ExcelColumnWidth="150" SortOrder="1000" IsKeyColumn="False" IsExcludeFromChangeTracking="False" MergeRowsValueSeparator="," MergeRowsMethod="Concatenate" IsCopyToParent="False">
+                                    <Command Id="51d6b437-ea64-4a9d-aa18-a287f4a880bd" Name="Origin" Description="" IsDisabled="False" IsDebugDisabled="False" IsDebugBreakPoint="False" DebugErrorOption="Notify" IsExport="True" IsNotifyOnCriticalError="False" IsIncreaseDataCount="False">
+                                      <TransformCommand>
+                                        <Script IsEnabled="False" Id="efaba01b-466d-438e-aa92-f1913eacdc3e" ScriptLanguage="Csharp" UseTemplateReference="False" TemplatePath="">
+                                          <CsharpScript>
+                                          </CsharpScript>
+                                          <VbScript>
+                                          </VbScript>
+                                          <LibraryMethodName>
+                                          </LibraryMethodName>
+                                          <UseSharedLibrary>False</UseSharedLibrary>
+                                          <UseDefaultLibrary>True</UseDefaultLibrary>
+                                          <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+                                          <CustomParameter>
+                                          </CustomParameter>
+                                        </Script>
+                                      </TransformCommand>
+                                    </Command>
+                                    <ContentTransformationScript>
+                                      <TransformationScript>
+                                        <Script IsEnabled="False" Id="7258870f-516a-4753-8d15-5b3bdc0f3e69" ScriptLanguage="Regex" UseTemplateReference="False" TemplatePath="">
+                                          <CsharpScript>
+                                          </CsharpScript>
+                                          <VbScript>
+                                          </VbScript>
+                                          <LibraryMethodName>
+                                          </LibraryMethodName>
+                                          <UseSharedLibrary>False</UseSharedLibrary>
+                                          <UseDefaultLibrary>True</UseDefaultLibrary>
+                                          <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+                                          <CustomParameter>
+                                          </CustomParameter>
+                                        </Script>
+                                      </TransformationScript>
+                                    </ContentTransformationScript>
+                                    <DataConsumer ProviderContainerId="00000000-0000-0000-0000-000000000000" ProviderColumnName="Default" InputParameterName="" CapturedDataCommandId="00000000-0000-0000-0000-000000000000" Source="DataProvider">
+                                      <ContentTransformationScript>
+                                        <TransformationScript>
+                                          <Script IsEnabled="False" Id="4c426ffc-b8d7-461d-8cc2-23dca11050e4" ScriptLanguage="Regex" UseTemplateReference="False" TemplatePath="">
+                                            <CsharpScript>
+                                            </CsharpScript>
+                                            <VbScript>
+                                            </VbScript>
+                                            <LibraryMethodName>
+                                            </LibraryMethodName>
+                                            <UseSharedLibrary>False</UseSharedLibrary>
+                                            <UseDefaultLibrary>True</UseDefaultLibrary>
+                                            <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+                                            <CustomParameter>
+                                            </CustomParameter>
+                                          </Script>
+                                        </TransformationScript>
+                                      </ContentTransformationScript>
+                                    </DataConsumer>
+                                  </Capture>
+                                  <Selection SelectionMissingOption="IgnoreCommand" IsSelectHiddenAndDisabledWebElements="True">
+                                    <SelectionPaths>
+                                      <SelectionPath>
+                                        <Xpath>//DIV[@class='empty ICAS']</Xpath>
+                                      </SelectionPath>
+                                    </SelectionPaths>
+                                  </Selection>
+                                </HtmlCapture>
+                                <HtmlCapture HtmlAttribute="Text" IsConcatenateContent="False" ConcatenateContentSeparate=" ">
+                                  <Capture DataType="ShortText" MaxDataLength="4000" IsCreateIndex="False" IsAlwaysUpdateDesignValue="False" IsUserDefinedDesignValue="False" IsDataValue="False" ExcelColumnFormat="" ExcelColumnWidth="150" SortOrder="1000" IsKeyColumn="False" IsExcludeFromChangeTracking="False" MergeRowsValueSeparator="," MergeRowsMethod="Concatenate" IsCopyToParent="False">
+                                    <Command Id="2d6c30d3-95c1-435d-8b83-622567074dff" Name="Career Level" Description="" IsDisabled="False" IsDebugDisabled="False" IsDebugBreakPoint="False" DebugErrorOption="Notify" IsExport="True" IsNotifyOnCriticalError="True" IsIncreaseDataCount="False">
+                                      <TransformCommand>
+                                        <Script IsEnabled="False" Id="ef6b82f8-4034-4286-8bdc-3a1d092e0e45" ScriptLanguage="Csharp" UseTemplateReference="False" TemplatePath="">
+                                          <CsharpScript>
+                                          </CsharpScript>
+                                          <VbScript>
+                                          </VbScript>
+                                          <LibraryMethodName>
+                                          </LibraryMethodName>
+                                          <UseSharedLibrary>False</UseSharedLibrary>
+                                          <UseDefaultLibrary>True</UseDefaultLibrary>
+                                          <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+                                          <CustomParameter>
+                                          </CustomParameter>
+                                        </Script>
+                                      </TransformCommand>
+                                    </Command>
+                                    <ContentTransformationScript>
+                                      <TransformationScript>
+                                        <Script IsEnabled="False" Id="68a64577-4829-44cc-9c5c-afa9ae94f426" ScriptLanguage="Regex" UseTemplateReference="False" TemplatePath="">
+                                          <CsharpScript>
+                                          </CsharpScript>
+                                          <VbScript>
+                                          </VbScript>
+                                          <LibraryMethodName>
+                                          </LibraryMethodName>
+                                          <UseSharedLibrary>False</UseSharedLibrary>
+                                          <UseDefaultLibrary>True</UseDefaultLibrary>
+                                          <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+                                          <CustomParameter>
+                                          </CustomParameter>
+                                        </Script>
+                                      </TransformationScript>
+                                    </ContentTransformationScript>
+                                    <DataConsumer ProviderContainerId="00000000-0000-0000-0000-000000000000" ProviderColumnName="Default" InputParameterName="" CapturedDataCommandId="00000000-0000-0000-0000-000000000000" Source="DataProvider">
+                                      <ContentTransformationScript>
+                                        <TransformationScript>
+                                          <Script IsEnabled="False" Id="46c1a6aa-c4a4-45f3-b949-481e09bc9d42" ScriptLanguage="Regex" UseTemplateReference="False" TemplatePath="">
+                                            <CsharpScript>
+                                            </CsharpScript>
+                                            <VbScript>
+                                            </VbScript>
+                                            <LibraryMethodName>
+                                            </LibraryMethodName>
+                                            <UseSharedLibrary>False</UseSharedLibrary>
+                                            <UseDefaultLibrary>True</UseDefaultLibrary>
+                                            <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+                                            <CustomParameter>
+                                            </CustomParameter>
+                                          </Script>
+                                        </TransformationScript>
+                                      </ContentTransformationScript>
+                                    </DataConsumer>
+                                  </Capture>
+                                  <Selection SelectionMissingOption="IgnoreCommand" IsSelectHiddenAndDisabledWebElements="True">
+                                    <SelectionPaths>
+                                      <SelectionPath>
+                                        <Xpath>//DIV[@class='empty ICAS']</Xpath>
+                                      </SelectionPath>
+                                    </SelectionPaths>
+                                  </Selection>
+                                </HtmlCapture>
+                                <HtmlCapture HtmlAttribute="Text" IsConcatenateContent="False" ConcatenateContentSeparate=" ">
+                                  <Capture DataType="ShortText" MaxDataLength="4000" IsCreateIndex="False" IsAlwaysUpdateDesignValue="False" IsUserDefinedDesignValue="False" IsDataValue="False" ExcelColumnFormat="" ExcelColumnWidth="150" SortOrder="1000" IsKeyColumn="False" IsExcludeFromChangeTracking="False" MergeRowsValueSeparator="," MergeRowsMethod="Concatenate" IsCopyToParent="False">
+                                    <Command Id="b9619d16-b3fa-489d-bf31-1a0587ace2b8" Name="Industry" Description="" IsDisabled="False" IsDebugDisabled="False" IsDebugBreakPoint="False" DebugErrorOption="Notify" IsExport="True" IsNotifyOnCriticalError="True" IsIncreaseDataCount="False">
+                                      <TransformCommand>
+                                        <Script IsEnabled="False" Id="040016e1-2753-455b-9ce8-9cdb3c35d6b5" ScriptLanguage="Csharp" UseTemplateReference="False" TemplatePath="">
+                                          <CsharpScript>
+                                          </CsharpScript>
+                                          <VbScript>
+                                          </VbScript>
+                                          <LibraryMethodName>
+                                          </LibraryMethodName>
+                                          <UseSharedLibrary>False</UseSharedLibrary>
+                                          <UseDefaultLibrary>True</UseDefaultLibrary>
+                                          <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+                                          <CustomParameter>
+                                          </CustomParameter>
+                                        </Script>
+                                      </TransformCommand>
+                                    </Command>
+                                    <ContentTransformationScript>
+                                      <TransformationScript>
+                                        <Script IsEnabled="False" Id="e0f33075-6f78-4a4f-8e35-d074dcfc12fb" ScriptLanguage="Regex" UseTemplateReference="False" TemplatePath="">
+                                          <CsharpScript>
+                                          </CsharpScript>
+                                          <VbScript>
+                                          </VbScript>
+                                          <LibraryMethodName>
+                                          </LibraryMethodName>
+                                          <UseSharedLibrary>False</UseSharedLibrary>
+                                          <UseDefaultLibrary>True</UseDefaultLibrary>
+                                          <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+                                          <CustomParameter>
+                                          </CustomParameter>
+                                        </Script>
+                                      </TransformationScript>
+                                    </ContentTransformationScript>
+                                    <DataConsumer ProviderContainerId="00000000-0000-0000-0000-000000000000" ProviderColumnName="Default" InputParameterName="" CapturedDataCommandId="00000000-0000-0000-0000-000000000000" Source="DataProvider">
+                                      <ContentTransformationScript>
+                                        <TransformationScript>
+                                          <Script IsEnabled="False" Id="7ed89dca-37f4-4a6f-9b20-8b023ac52266" ScriptLanguage="Regex" UseTemplateReference="False" TemplatePath="">
+                                            <CsharpScript>
+                                            </CsharpScript>
+                                            <VbScript>
+                                            </VbScript>
+                                            <LibraryMethodName>
+                                            </LibraryMethodName>
+                                            <UseSharedLibrary>False</UseSharedLibrary>
+                                            <UseDefaultLibrary>True</UseDefaultLibrary>
+                                            <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+                                            <CustomParameter>
+                                            </CustomParameter>
+                                          </Script>
+                                        </TransformationScript>
+                                      </ContentTransformationScript>
+                                    </DataConsumer>
+                                  </Capture>
+                                  <Selection SelectionMissingOption="IgnoreCommand" IsSelectHiddenAndDisabledWebElements="True">
+                                    <SelectionPaths>
+                                      <SelectionPath>
+                                        <Xpath>//DIV[@class='empty ICAS']</Xpath>
+                                      </SelectionPath>
+                                    </SelectionPaths>
+                                  </Selection>
+                                </HtmlCapture>
+                                <HtmlCapture HtmlAttribute="Text" IsConcatenateContent="False" ConcatenateContentSeparate=" ">
+                                  <Capture DataType="ShortText" MaxDataLength="4000" IsCreateIndex="False" IsAlwaysUpdateDesignValue="False" IsUserDefinedDesignValue="False" IsDataValue="False" ExcelColumnFormat="" ExcelColumnWidth="150" SortOrder="1000" IsKeyColumn="False" IsExcludeFromChangeTracking="False" MergeRowsValueSeparator="," MergeRowsMethod="Concatenate" IsCopyToParent="False">
+                                    <Command Id="e5e2fb07-0a20-48a5-b736-9484ebb6f78a" Name="Remarks" Description="" IsDisabled="False" IsDebugDisabled="False" IsDebugBreakPoint="False" DebugErrorOption="Notify" IsExport="True" IsNotifyOnCriticalError="True" IsIncreaseDataCount="False">
+                                      <TransformCommand>
+                                        <Script IsEnabled="False" Id="040016e1-2753-455b-9ce8-9cdb3c35d6b5" ScriptLanguage="Csharp" UseTemplateReference="False" TemplatePath="">
+                                          <CsharpScript>
+                                          </CsharpScript>
+                                          <VbScript>
+                                          </VbScript>
+                                          <LibraryMethodName>
+                                          </LibraryMethodName>
+                                          <UseSharedLibrary>False</UseSharedLibrary>
+                                          <UseDefaultLibrary>True</UseDefaultLibrary>
+                                          <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+                                          <CustomParameter>
+                                          </CustomParameter>
+                                        </Script>
+                                      </TransformCommand>
+                                    </Command>
+                                    <ContentTransformationScript>
+                                      <TransformationScript>
+                                        <Script IsEnabled="False" Id="e0f33075-6f78-4a4f-8e35-d074dcfc12fb" ScriptLanguage="Regex" UseTemplateReference="False" TemplatePath="">
+                                          <CsharpScript>
+                                          </CsharpScript>
+                                          <VbScript>
+                                          </VbScript>
+                                          <LibraryMethodName>
+                                          </LibraryMethodName>
+                                          <UseSharedLibrary>False</UseSharedLibrary>
+                                          <UseDefaultLibrary>True</UseDefaultLibrary>
+                                          <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+                                          <CustomParameter>
+                                          </CustomParameter>
+                                        </Script>
+                                      </TransformationScript>
+                                    </ContentTransformationScript>
+                                    <DataConsumer ProviderContainerId="00000000-0000-0000-0000-000000000000" ProviderColumnName="Default" InputParameterName="" CapturedDataCommandId="00000000-0000-0000-0000-000000000000" Source="DataProvider">
+                                      <ContentTransformationScript>
+                                        <TransformationScript>
+                                          <Script IsEnabled="False" Id="7ed89dca-37f4-4a6f-9b20-8b023ac52266" ScriptLanguage="Regex" UseTemplateReference="False" TemplatePath="">
+                                            <CsharpScript>
+                                            </CsharpScript>
+                                            <VbScript>
+                                            </VbScript>
+                                            <LibraryMethodName>
+                                            </LibraryMethodName>
+                                            <UseSharedLibrary>False</UseSharedLibrary>
+                                            <UseDefaultLibrary>True</UseDefaultLibrary>
+                                            <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+                                            <CustomParameter>
+                                            </CustomParameter>
+                                          </Script>
+                                        </TransformationScript>
+                                      </ContentTransformationScript>
+                                    </DataConsumer>
+                                  </Capture>
+                                  <Selection SelectionMissingOption="IgnoreCommand" IsSelectHiddenAndDisabledWebElements="True">
+                                    <SelectionPaths>
+                                      <SelectionPath>
+                                        <Xpath>//DIV[@class='empty ICAS']</Xpath>
+                                      </SelectionPath>
+                                    </SelectionPaths>
+                                  </Selection>
+                                </HtmlCapture>
+                                <HtmlCapture HtmlAttribute="Formatted Text" IsConcatenateContent="False" ConcatenateContentSeparate=" ">
+                                  <Capture DataType="ShortText" MaxDataLength="4000" IsCreateIndex="False" IsAlwaysUpdateDesignValue="False" IsUserDefinedDesignValue="False" IsDataValue="False" ExcelColumnFormat="" ExcelColumnWidth="150" SortOrder="1000" IsKeyColumn="False" IsExcludeFromChangeTracking="False" MergeRowsValueSeparator="," MergeRowsMethod="Concatenate" IsCopyToParent="False">
+                                    <Command Id="0a9d90d7-5649-4701-9755-f9b082b6e8d0" Name="Specialization" Description="" IsDisabled="False" IsDebugDisabled="False" IsDebugBreakPoint="False" DebugErrorOption="Notify" IsExport="True" IsNotifyOnCriticalError="True" IsIncreaseDataCount="False">
+                                      <TransformCommand>
+                                        <Script IsEnabled="False" Id="54b7b2e3-a26a-49df-ad61-fb53adebef67" ScriptLanguage="Csharp" UseTemplateReference="False" TemplatePath="">
+                                          <CsharpScript>
+                                          </CsharpScript>
+                                          <VbScript>
+                                          </VbScript>
+                                          <LibraryMethodName>
+                                          </LibraryMethodName>
+                                          <UseSharedLibrary>False</UseSharedLibrary>
+                                          <UseDefaultLibrary>True</UseDefaultLibrary>
+                                          <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+                                          <CustomParameter>
+                                          </CustomParameter>
+                                        </Script>
+                                      </TransformCommand>
+                                    </Command>
+                                    <ContentTransformationScript>
+                                      <TransformationScript>
+                                        <Script IsEnabled="False" Id="6af60248-4624-43c6-ade0-d40412303740" ScriptLanguage="Regex" UseTemplateReference="False" TemplatePath="">
+                                          <CsharpScript>
+                                          </CsharpScript>
+                                          <VbScript>
+                                          </VbScript>
+                                          <LibraryMethodName>
+                                          </LibraryMethodName>
+                                          <UseSharedLibrary>False</UseSharedLibrary>
+                                          <UseDefaultLibrary>True</UseDefaultLibrary>
+                                          <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+                                          <CustomParameter>
+                                          </CustomParameter>
+                                        </Script>
+                                      </TransformationScript>
+                                    </ContentTransformationScript>
+                                    <DataConsumer ProviderContainerId="00000000-0000-0000-0000-000000000000" ProviderColumnName="Default" InputParameterName="" CapturedDataCommandId="00000000-0000-0000-0000-000000000000" Source="DataProvider">
+                                      <ContentTransformationScript>
+                                        <TransformationScript>
+                                          <Script IsEnabled="False" Id="9443b47a-b76a-47dd-b400-5d3cc412ebf0" ScriptLanguage="Regex" UseTemplateReference="False" TemplatePath="">
+                                            <CsharpScript>
+                                            </CsharpScript>
+                                            <VbScript>
+                                            </VbScript>
+                                            <LibraryMethodName>
+                                            </LibraryMethodName>
+                                            <UseSharedLibrary>False</UseSharedLibrary>
+                                            <UseDefaultLibrary>True</UseDefaultLibrary>
+                                            <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+                                            <CustomParameter>
+                                            </CustomParameter>
+                                          </Script>
+                                        </TransformationScript>
+                                      </ContentTransformationScript>
+                                    </DataConsumer>
+                                  </Capture>
+                                  <Selection SelectionMissingOption="Default" IsSelectHiddenAndDisabledWebElements="True">
+                                    <SelectionPaths>
+                                      <SelectionPath>
+                                        <Xpath>../../../../../../..//p[@class='applied-filter-item']/span[2]</Xpath>
+                                      </SelectionPath>
+                                    </SelectionPaths>
+                                  </Selection>
+                                </HtmlCapture>
+                                <DataValue>
+                                  <DataConsumer ProviderContainerId="4422b86f-8fa4-45de-bc85-ecfd48ebe6d4" ProviderColumnName="days_to_crawl" InputParameterName="" CapturedDataCommandId="00000000-0000-0000-0000-000000000000" Source="DataProvider">
+                                    <ContentTransformationScript>
+                                      <TransformationScript>
+                                        <Script IsEnabled="False" Id="88997aaf-ec5c-4a04-aa3e-294eb540a0c6" ScriptLanguage="Regex" UseTemplateReference="False" TemplatePath="">
+                                          <CsharpScript>
+                                          </CsharpScript>
+                                          <VbScript>
+                                          </VbScript>
+                                          <LibraryMethodName>
+                                          </LibraryMethodName>
+                                          <UseSharedLibrary>False</UseSharedLibrary>
+                                          <UseDefaultLibrary>True</UseDefaultLibrary>
+                                          <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+                                          <CustomParameter>
+                                          </CustomParameter>
+                                        </Script>
+                                      </TransformationScript>
+                                    </ContentTransformationScript>
+                                  </DataConsumer>
+                                  <Capture DataType="ShortText" MaxDataLength="4000" IsCreateIndex="False" IsAlwaysUpdateDesignValue="False" IsUserDefinedDesignValue="False" IsDataValue="True" ExcelColumnFormat="" ExcelColumnWidth="150" SortOrder="1000" IsKeyColumn="False" IsExcludeFromChangeTracking="False" MergeRowsValueSeparator="," MergeRowsMethod="Concatenate" IsCopyToParent="False">
+                                    <Command Id="9545675a-eb1c-4bb1-ba96-c96cf3c78de9" Name="Days To Crawl" Description="" IsDisabled="False" IsDebugDisabled="False" IsDebugBreakPoint="False" DebugErrorOption="Notify" IsExport="True" IsNotifyOnCriticalError="True" IsIncreaseDataCount="False">
+                                      <TransformCommand>
+                                        <Script IsEnabled="False" Id="c7c85408-449d-4c75-924a-de38d341cca3" ScriptLanguage="Csharp" UseTemplateReference="False" TemplatePath="">
+                                          <CsharpScript>
+                                          </CsharpScript>
+                                          <VbScript>
+                                          </VbScript>
+                                          <LibraryMethodName>
+                                          </LibraryMethodName>
+                                          <UseSharedLibrary>False</UseSharedLibrary>
+                                          <UseDefaultLibrary>True</UseDefaultLibrary>
+                                          <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+                                          <CustomParameter>
+                                          </CustomParameter>
+                                        </Script>
+                                      </TransformCommand>
+                                    </Command>
+                                    <ContentTransformationScript>
+                                      <TransformationScript>
+                                        <Script IsEnabled="False" Id="60568923-71cf-4b8c-80e2-69e674f596bb" ScriptLanguage="Regex" UseTemplateReference="False" TemplatePath="">
+                                          <CsharpScript>
+                                          </CsharpScript>
+                                          <VbScript>
+                                          </VbScript>
+                                          <LibraryMethodName>
+                                          </LibraryMethodName>
+                                          <UseSharedLibrary>False</UseSharedLibrary>
+                                          <UseDefaultLibrary>True</UseDefaultLibrary>
+                                          <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+                                          <CustomParameter>
+                                          </CustomParameter>
+                                        </Script>
+                                      </TransformationScript>
+                                    </ContentTransformationScript>
+                                    <DataConsumer ProviderContainerId="4422b86f-8fa4-45de-bc85-ecfd48ebe6d4" ProviderColumnName="days_to_crawl" InputParameterName="" CapturedDataCommandId="00000000-0000-0000-0000-000000000000" Source="DataProvider">
+                                      <ContentTransformationScript>
+                                        <TransformationScript>
+                                          <Script IsEnabled="False" Id="88997aaf-ec5c-4a04-aa3e-294eb540a0c6" ScriptLanguage="Regex" UseTemplateReference="False" TemplatePath="">
+                                            <CsharpScript>
+                                            </CsharpScript>
+                                            <VbScript>
+                                            </VbScript>
+                                            <LibraryMethodName>
+                                            </LibraryMethodName>
+                                            <UseSharedLibrary>False</UseSharedLibrary>
+                                            <UseDefaultLibrary>True</UseDefaultLibrary>
+                                            <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+                                            <CustomParameter>
+                                            </CustomParameter>
+                                          </Script>
+                                        </TransformationScript>
+                                      </ContentTransformationScript>
+                                    </DataConsumer>
+                                  </Capture>
+                                </DataValue>
+                                <ExitOrRetryCommand ExitOrRetry="SpecificContainer" SpecificContainerId="190d1078-0d7a-4010-a104-97e31d834d94" RetryCount="5" IsRetry="False" IsFailOnMaxRetries="True" IsDeleteCurrentDataEntryOnExit="False" RetryProxyRotation="KeepAndRotate" RetryDelay="0">
+                                  <Command Id="91ca1306-01d8-4609-abb1-582470ec5bc5" Name="Conditional Script" Description="" IsDisabled="False" IsDebugDisabled="False" IsDebugBreakPoint="False" DebugErrorOption="Notify" IsExport="True" IsNotifyOnCriticalError="True" IsIncreaseDataCount="False">
+                                    <TransformCommand>
+                                      <Script IsEnabled="False" Id="672324dc-2e91-455f-8206-2641fe7047f0" ScriptLanguage="Csharp" UseTemplateReference="False" TemplatePath="">
+                                        <CsharpScript>
+                                        </CsharpScript>
+                                        <VbScript>
+                                        </VbScript>
+                                        <LibraryMethodName>
+                                        </LibraryMethodName>
+                                        <UseSharedLibrary>False</UseSharedLibrary>
+                                        <UseDefaultLibrary>True</UseDefaultLibrary>
+                                        <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+                                        <CustomParameter>
+                                        </CustomParameter>
+                                      </Script>
+                                    </TransformCommand>
+                                  </Command>
+                                  <FlowCondition ConditionType="Script" Operator="Equals" Value="" HtmlAttribute="HTML" DataType="Text">
+                                    <ConditionScript>
+                                      <Script IsEnabled="True" Id="bbfa7cca-bba9-48c8-9bd5-71b83f95c3d6" ScriptLanguage="Csharp" UseTemplateReference="True" TemplatePath="Condition\Csharp\General Condition Script.cgt">
+                                        <CsharpScript>using System;
+using System.Globalization;
+using Sequentum.ContentGrabber.Api;
+
+public class Script
+{
+	public static bool ConditionScript(ConditionScriptArguments args)
+	{
+		if (args.DataRow.GetDataValue("Posted Date") == "") {
+			return false;
+		}
+		
+		DateTime crawlDate = DateTime.Today.AddDays(-Convert.ToDouble(args.DataRow.GetDataValue("Days To Crawl")));
+		DateTime postedDate = DateTime.Parse(args.DataRow.GetDataValue("Posted Date"));
+		
+		if (postedDate.Date.CompareTo(crawlDate) &gt;= 0) {
+			return false;
+		}
+		
+		return true;
+	}
+}
+</CsharpScript>
+                                        <VbScript>
+                                        </VbScript>
+                                        <LibraryMethodName>
+                                        </LibraryMethodName>
+                                        <UseSharedLibrary>False</UseSharedLibrary>
+                                        <UseDefaultLibrary>True</UseDefaultLibrary>
+                                        <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+                                        <CustomParameter>
+                                        </CustomParameter>
+                                      </Script>
+                                    </ConditionScript>
+                                    <DataConsumer ProviderContainerId="00000000-0000-0000-0000-000000000000" ProviderColumnName="Default" InputParameterName="" CapturedDataCommandId="00000000-0000-0000-0000-000000000000" Source="DataProvider">
+                                      <ContentTransformationScript>
+                                        <TransformationScript>
+                                          <Script IsEnabled="False" Id="4071941e-a9c8-4c25-8e2f-e30855b449e0" ScriptLanguage="Regex" UseTemplateReference="False" TemplatePath="">
+                                            <CsharpScript>
+                                            </CsharpScript>
+                                            <VbScript>
+                                            </VbScript>
+                                            <LibraryMethodName>
+                                            </LibraryMethodName>
+                                            <UseSharedLibrary>False</UseSharedLibrary>
+                                            <UseDefaultLibrary>True</UseDefaultLibrary>
+                                            <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+                                            <CustomParameter>
+                                            </CustomParameter>
+                                          </Script>
+                                        </TransformationScript>
+                                      </ContentTransformationScript>
+                                    </DataConsumer>
+                                    <Selection SelectionMissingOption="Default" IsSelectHiddenAndDisabledWebElements="True">
+                                      <SelectionPaths>
+                                        <SelectionPath>
+                                          <Xpath>
+                                          </Xpath>
+                                        </SelectionPath>
+                                      </SelectionPaths>
+                                    </Selection>
+                                  </FlowCondition>
+                                </ExitOrRetryCommand>
+                              </ChildElements>
+                            </Container>
+                            <DebugListSet ListStartIndex="1" ListCount="2147483647" />
+                          </ListContainer>
+                          <Selection SelectionMissingOption="LogErrorIgnoreCommand" IsSelectHiddenAndDisabledWebElements="True">
+                            <SelectionPaths>
+                              <SelectionPath>
+                                <Xpath>//div[@id='searchDisplay-div']/div/div[2]/app-search-card/div[1]</Xpath>
+                              </SelectionPath>
+                            </SelectionPaths>
+                          </Selection>
+                        </HtmlList>
+                      </ChildElements>
+                    </Container>
+                  </Group>
+                  <PaginationLink LinkType="NextLink" PageNumberAttributeName="Text" CanNavigateDirectlyToPage="True" HasMaxPageNumberSelection="00000000-0000-0000-0000-000000000000" MaxPageNumberCommandId="00000000-0000-0000-0000-000000000000" UseMaxPageNumberCommand="False" UseMaxPageNumberValue="False" MaxPageNumberValue="500" UseNextPaginationSetSelection="False" ContainerLinkId="23745644-16b8-4c96-9d23-927e4f6eec61">
+                    <Command Id="dc3305f0-c231-4115-b0ef-5faf2a512cf8" Name="Next Page" Description="" IsDisabled="False" IsDebugDisabled="False" IsDebugBreakPoint="False" DebugErrorOption="Notify" IsExport="True" IsNotifyOnCriticalError="True" IsIncreaseDataCount="False">
+                      <TransformCommand>
+                        <Script IsEnabled="False" Id="b7e1588b-5e51-4a54-9b8a-4e3ceb342e8c" ScriptLanguage="Csharp" UseTemplateReference="False" TemplatePath="">
+                          <CsharpScript>
+                          </CsharpScript>
+                          <VbScript>
+                          </VbScript>
+                          <LibraryMethodName>
+                          </LibraryMethodName>
+                          <UseSharedLibrary>False</UseSharedLibrary>
+                          <UseDefaultLibrary>True</UseDefaultLibrary>
+                          <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+                          <CustomParameter>
+                          </CustomParameter>
+                        </Script>
+                      </TransformCommand>
+                    </Command>
+                    <ContentTransformationScript>
+                      <TransformationScript>
+                        <Script IsEnabled="False" Id="95788017-c25b-4d42-974c-b775292c560a" ScriptLanguage="Regex" UseTemplateReference="False" TemplatePath="">
+                          <CsharpScript>
+                          </CsharpScript>
+                          <VbScript>
+                          </VbScript>
+                          <LibraryMethodName>
+                          </LibraryMethodName>
+                          <UseSharedLibrary>False</UseSharedLibrary>
+                          <UseDefaultLibrary>True</UseDefaultLibrary>
+                          <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+                          <CustomParameter>
+                          </CustomParameter>
+                        </Script>
+                      </TransformationScript>
+                    </ContentTransformationScript>
+                    <LinkAction HtmlAttribute="Default URL" BreaksHtmlArea="Default">
+                      <Action IsDiscoverAction="False" IsNeverDiscoverNewBrowser="False" IsScrollUntilEndOfPage="True" IsLimitNumberOfScrolls="False" MaxScrollNumberCommandId="00000000-0000-0000-0000-000000000000" ScrollStep="500" MaxNumberOfScrolls="50" TargetBrowser="Current" IsRedircetFirstRequestToNewBrowserTab="False" BrowserMode="Default" ActionType="FireEvents" IsDefaultEvents="True" IsReturnPageRequestOnly="False" IsAddForceRefreshHeader="False" IsBlockKnownAdServers="Default" IsIgnoreErrorCodes="Default" ClearStorageMethod="Default" IsBlockPopup="False" IsRotateProxiesBeforeAction="False" ErrorRetryProxyRotation="KeepAndRotate" PageNotFoundHandling="Default" ErrorHandling="ExitCommand" ErrorRetryCount="5" ErrorRetryDelay="5000" ContentType="Default" JsonTransformationRegex="" DetectEncoding="Default" FixedEncoding="utf-8" CustomRequestHeaders="" IsReuseNewBrowser="False" IsNoParse="False" MaxAjaxCalls="10">
+                        <Events />
+                        <BlockedEvents />
+                        <EditorAction UseSpecificUrl="False" Url="" />
+                        <ActionTimeouts WaitForMainPageRedirect="15000" WaitForPageLoadToComplete="30000" waitForFileDownloadToComplete="120000" waitForFileDownloadToStart="5000" WaitForAjaxToComplete="5000" WaitForFrameLoadToComplete="5000" WaitForJavaScriptParser="2000" WaitForAsyncToComplete="100" WaitForDiscoverActivity="1000" WaitForFirstDiscoverActivity="2000" waitForDiscoverFirstUrlActivity="10000" WaitForAjaxToRender="0" WaitForAjaxToRenderAfterScroll="1000" IsDoubleAllTimeouts="False" IsDefaultTimeouts="True" WaitForContentTimeout="30000" WaitTimes="2" />
+                        <ActionActivities WaitForFullPageLoad="Optional" WaitForFramePageLoad="Optional" WaitForExternalPageLoad="None" WaitForMainFrameAjax="True" WaitForInternalFrameAjax="True" WaitForExternalFrameAjax="False" WaitForMainFrameScripts="False" WaitForInternalFrameScripts="False" WaitForExternalFrameScripts="False" WaitForMainFrameRedirect="False" WaitForContent="Optional">
+                          <WaitXpaths>
+                          </WaitXpaths>
+                          <WaitForUrlRegex>
+                          </WaitForUrlRegex>
+                        </ActionActivities>
+                      </Action>
+                      <Selection SelectionMissingOption="Default" IsSelectHiddenAndDisabledWebElements="True">
+                        <SelectionPaths>
+                          <SelectionPath>
+                            <Xpath>//li[@id='searchPaginationNext-li']/a/span</Xpath>
+                          </SelectionPath>
+                        </SelectionPaths>
+                      </Selection>
+                      <ContentTransformationScript>
+                        <TransformationScript>
+                          <Script IsEnabled="False" Id="ca477664-8c17-4f1e-b910-eeba17d91b7e" ScriptLanguage="Regex" UseTemplateReference="False" TemplatePath="">
+                            <CsharpScript>
+                            </CsharpScript>
+                            <VbScript>
+                            </VbScript>
+                            <LibraryMethodName>
+                            </LibraryMethodName>
+                            <UseSharedLibrary>False</UseSharedLibrary>
+                            <UseDefaultLibrary>True</UseDefaultLibrary>
+                            <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+                            <CustomParameter>
+                            </CustomParameter>
+                          </Script>
+                        </TransformationScript>
+                      </ContentTransformationScript>
+                    </LinkAction>
+                  </PaginationLink>
+                </ChildElements>
+              </Container>
+            </Group>
+          </ChildElements>
+        </Container>
+        <DebugListSet ListStartIndex="1" ListCount="2147483647" />
+      </ListContainer>
+      <DataProvider IsPublicProvider="False" ProvideDataAsList="False" DesignRowIndex="0" TestSetStartValue="1" TestSetCount="1" IsUseTestSet="False" DataProviderType="Script" PublicProviderName="" IsDiscoverMoreData="False" IsLoadMoreData="False" IsHideData="False">
+        <ScriptDataProvider HtmlAttribute="" IsUseSelection="False">
+          <Script IsEnabled="True" Id="33752e08-0eb5-4e9e-9919-41225a8a9597" ScriptLanguage="Csharp" UseTemplateReference="True" TemplatePath="SimpleDataProvider\Csharp\GeneralInputScript.cgt">
+            <CsharpScript>using System;
+using System.Collections.Generic;
+using System.Data;
+using Sequentum.ContentGrabber.Api;
+
+public class Script
+{        
+	public static CustomDataStorage ProvideData(DataProviderArguments args)
+ 	{
+		string configDB = "configDB";
+		string competitorSiteCode = args.GlobalData.GetString("CompetitorSiteCode");
+		string modValue = args.GlobalData.GetString("ModValue");
+		string mod = args.GlobalData.GetString("Mod");
+		DataTable crawlingList = new DataTable();
+		
+		IConnection connectionConfigDB = args.GetDatabaseConnection(configDB);
+   		connectionConfigDB.OpenDatabase();
+
+		try {
+			string conditionQuery = "WHERE competitor_site_code = " + competitorSiteCode + " AND active_flag = 1 AND " +
+				"(SELECT COUNT(1) FROM crawl_attempt(NOLOCK) WHERE attempt_url = url AND attempt_date &gt; last_success_date) &lt; 3 " +
+				"AND CAST(last_success_date + interval AS DATE) &lt;= CAST(GETDATE() AS DATE) ";
+			
+			string sql = "SELECT TOP 5 url AS crawling_url, crawling_list.country, email, password, ip, " +
+				"CASE WHEN last_success_date = '1900-01-01' THEN 1 ELSE DATEDIFF(DAY, CAST(last_success_date AS DATE), CAST(GETDATE() AS DATE)) END AS days_to_crawl " +
+				"FROM crawling_list(NOLOCK) INNER JOIN " +
+				"(SELECT TOP 1 account_id, country FROM crawling_list(NOLOCK) " + conditionQuery + 
+				"AND account_id % " + mod + " = " + modValue + " ORDER BY NEWID()) temp " +
+				"ON crawling_list.account_id = temp.account_id AND crawling_list.country = temp.country " +
+				"LEFT JOIN crawler_account(NOLOCK) ON crawler_account.id = crawling_list.account_id " +
+				"LEFT JOIN proxy_list(NOLOCK) ON proxy_list.id = crawler_account.proxy_id " + conditionQuery + " ORDER BY NEWID()";
+				
+			IReader reader = connectionConfigDB.ExecuteReader(sql);
+			
+			crawlingList.Load(reader.GetDataReader());
+			DataTableReader crawlingListReader = crawlingList.CreateDataReader();
+			
+			string proxyIP = "";
+			
+			while (crawlingListReader.Read()) {
+				string insertSql = "INSERT INTO crawl_attempt(attempt_url, attempt_date) VALUES(N'" + crawlingListReader.GetString(0) + "', GETDATE())";
+				
+				ICommand command = connectionConfigDB.GetNewCommand();
+				command.SetSql(insertSql);
+				command.ExecuteNonQuery();
+				
+				if (!crawlingListReader.IsDBNull(4)) {
+					proxyIP = crawlingListReader.GetString(4);
+				}
+			}
+			
+			if (proxyIP != "") {			
+				args.GlobalData.ProxyList.AddProxyServer(proxyIP, "user-40569", "057fc56aa5679f5a");
+			}
+		} catch(Exception exp) {
+			args.WriteDebug(exp.Message, true, DebugMessageType.Error);
+			return new CustomDataStorage();
+		} finally {
+			connectionConfigDB.CloseDatabase();
+		}
+		
+		return new CustomDataStorage(crawlingList);	
+	}
+}</CsharpScript>
+            <VbScript>
+            </VbScript>
+            <LibraryMethodName>
+            </LibraryMethodName>
+            <UseSharedLibrary>False</UseSharedLibrary>
+            <UseDefaultLibrary>True</UseDefaultLibrary>
+            <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+            <CustomParameter>
+            </CustomParameter>
+          </Script>
+        </ScriptDataProvider>
+      </DataProvider>
+      <Selection SelectionMissingOption="Default" IsSelectHiddenAndDisabledWebElements="True">
+        <SelectionPaths>
+          <SelectionPath>
+            <Xpath>
+            </Xpath>
+          </SelectionPath>
+        </SelectionPaths>
+      </Selection>
+    </DataList>
+    <UrlAction>
+      <Action IsDiscoverAction="False" IsNeverDiscoverNewBrowser="False" IsScrollUntilEndOfPage="True" IsLimitNumberOfScrolls="False" MaxScrollNumberCommandId="00000000-0000-0000-0000-000000000000" ScrollStep="500" MaxNumberOfScrolls="50" TargetBrowser="New" IsRedircetFirstRequestToNewBrowserTab="True" BrowserMode="Dynamic" ActionType="Url" IsDefaultEvents="True" IsReturnPageRequestOnly="False" IsAddForceRefreshHeader="False" IsBlockKnownAdServers="Default" IsIgnoreErrorCodes="Default" ClearStorageMethod="Default" IsBlockPopup="False" IsRotateProxiesBeforeAction="False" ErrorRetryProxyRotation="None" PageNotFoundHandling="Default" ErrorHandling="StopAgent" ErrorRetryCount="1" ErrorRetryDelay="5000" ContentType="Default" JsonTransformationRegex="" DetectEncoding="Default" FixedEncoding="utf-8" CustomRequestHeaders="" IsReuseNewBrowser="False" IsNoParse="False" MaxAjaxCalls="10">
+        <Events />
+        <BlockedEvents />
+        <EditorAction UseSpecificUrl="False" Url="" />
+        <ActionTimeouts WaitForMainPageRedirect="15000" WaitForPageLoadToComplete="30000" waitForFileDownloadToComplete="120000" waitForFileDownloadToStart="5000" WaitForAjaxToComplete="5000" WaitForFrameLoadToComplete="5000" WaitForJavaScriptParser="2000" WaitForAsyncToComplete="100" WaitForDiscoverActivity="1000" WaitForFirstDiscoverActivity="2000" waitForDiscoverFirstUrlActivity="10000" WaitForAjaxToRender="0" WaitForAjaxToRenderAfterScroll="1000" IsDoubleAllTimeouts="False" IsDefaultTimeouts="False" WaitForContentTimeout="30000" WaitTimes="2" />
+        <ActionActivities WaitForFullPageLoad="Required" WaitForFramePageLoad="Optional" WaitForExternalPageLoad="None" WaitForMainFrameAjax="True" WaitForInternalFrameAjax="True" WaitForExternalFrameAjax="False" WaitForMainFrameScripts="False" WaitForInternalFrameScripts="False" WaitForExternalFrameScripts="False" WaitForMainFrameRedirect="False" WaitForContent="Optional">
+          <WaitXpaths>
+          </WaitXpaths>
+          <WaitForUrlRegex>
+          </WaitForUrlRegex>
+        </ActionActivities>
+      </Action>
+    </UrlAction>
+    <DataConsumer ProviderContainerId="4422b86f-8fa4-45de-bc85-ecfd48ebe6d4" ProviderColumnName="crawling_url" InputParameterName="" CapturedDataCommandId="00000000-0000-0000-0000-000000000000" Source="DataProvider">
+      <ContentTransformationScript>
+        <TransformationScript>
+          <Script IsEnabled="False" Id="d7d15ed8-c3c9-40cf-9300-72a43fef6a74" ScriptLanguage="Regex" UseTemplateReference="False" TemplatePath="">
+            <CsharpScript>
+            </CsharpScript>
+            <VbScript>
+            </VbScript>
+            <LibraryMethodName>
+            </LibraryMethodName>
+            <UseSharedLibrary>False</UseSharedLibrary>
+            <UseDefaultLibrary>True</UseDefaultLibrary>
+            <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+            <CustomParameter>
+            </CustomParameter>
+          </Script>
+        </TransformationScript>
+      </ContentTransformationScript>
+    </DataConsumer>
+  </Url>
+  <AgentProxy ThirdPartyProxySource="ProxySwitch" ProxySource="Direct">
+    <NohodoProxy Username="11242" Password="" ProxyAddress="" UseIpAuthentication="True" />
+    <ProxyList RetriesBeforeRemoval="0" RotationInterval="100" VerificationTimeoutSeconds="15" IsVerifyProxies="False" VerificationUrl="" IsRotateAutomatically="False">
+      <ProxyServers />
+    </ProxyList>
+  </AgentProxy>
+  <InitializationScript>
+    <Script IsEnabled="False" Id="26f38570-2b20-4e81-8813-0e2efa4cc767" ScriptLanguage="Regex" UseTemplateReference="False" TemplatePath="">
+      <CsharpScript>
+      </CsharpScript>
+      <VbScript>
+      </VbScript>
+      <LibraryMethodName>
+      </LibraryMethodName>
+      <UseSharedLibrary>False</UseSharedLibrary>
+      <UseDefaultLibrary>True</UseDefaultLibrary>
+      <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+      <CustomParameter>
+      </CustomParameter>
+    </Script>
+  </InitializationScript>
+  <InternalDatabase UseDefaultDownloadPath="True" IsReplaceData="True" IsDeleteDownloadedFiles="False" IsGroupSessionFiles="True" IsEmbedFiles="True" IsAutomaticOverwrite="True" InternalDatabaseType="SqLite" OldDataRetention="DeleteOldData" DurationType="KeepExtracts" DurationValue="1">
+    <SqLiteConnection DatabaseDirectoryName="" UseInMemory="False" IsAutoVacuum="False" />
+    <WsDatabaseReference DatabaseConnectionId="00000000-0000-0000-0000-000000000000" />
+    <ChangeTracking IsEnabled="False" HistoricalData="ChangedDataOnly" ExportMethod="ExportAll" ExportMethodDays="7" IsLastChangeEnabled="True" IsChangeDateEnabled="True" IsInsertDateEnabled="False" IsUpdateDateEnabled="False" IsIdentifierEnabled="False" IsColumnsAffectedEnabled="True" IsChangedLastRunEnabled="False" IsTrackDeletes="True" LastChangeColumnName="Last Change" UpdateDateColumnName="Updated Date" InsertDateColumnName="Inserted Date" ChangeDateColumnName="Last Change Date" IdentifierColumnName="Identifier" ColumnsAffectedColumnName="Columns Affected" ChangedLastRunColumnName="Changed Last Run" />
+  </InternalDatabase>
+  <ExportDestination UseDefaultDownloadPath="True" ExportTargetType="Script">
+    <EmailDelivery Server="" Username="" Password="" FromEmailAddress="" RecipientEmailAddresses="" IsEmailDeliveryEnabled="False" Port="25" IsSsl="False" IsCompressFiles="True" IsDeliverExtractedFiles="False" IsDeliverDataFiles="True" IsUseDefaultSettings="False" IsUseDefaultEmailAddresses="True" />
+    <FtpDelivery Server="" Username="" Password="" IsFtpDeliveryEnabled="False" IsCompressFiles="False" IsDeliverExtractedFiles="False" IsDeliverDataFiles="True" />
+    <ScriptDelivery>
+      <Script IsEnabled="False" Id="35242e32-2277-4020-a764-9622058642ec" ScriptLanguage="Regex" UseTemplateReference="False" TemplatePath="">
+        <CsharpScript>
+        </CsharpScript>
+        <VbScript>
+        </VbScript>
+        <LibraryMethodName>
+        </LibraryMethodName>
+        <UseSharedLibrary>False</UseSharedLibrary>
+        <UseDefaultLibrary>True</UseDefaultLibrary>
+        <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+        <CustomParameter>
+        </CustomParameter>
+      </Script>
+    </ScriptDelivery>
+    <GoogleDriveDelivery IsGoogleDriveDeliveryEnabled="False" IsCompressFiles="False" IsDeliverExtractedFiles="False" IsDeliverDataFiles="True" IsConvertToGoogleSheets="True" />
+    <CsvExport FilePath="" UseDefaultPath="True" Encoding="utf-8" ValueSeparator="Comma" IsTimeStampFile="False" IsAppendData="False" KeyType="Numeric" IsExportKeys="True" />
+    <ExcelExport UseDefaultPath="True" IsOutlineFirstChildTable="False" IsRepeatMainHeadersWhenChildTable="True" IsTimeStampFile="False" IsWrapText="True" IsEmbedImages="False" IsExcel2003Compatibillity="True" IsMultipleSheets="True" />
+    <PdfExport UseDefaultPath="True" IsRepeatMainHeadersWhenChildTable="True" IsTimeStampFile="False" IsEmbedImages="True" />
+    <XmlExport FilePath="" UseDefaultPath="True" IsTimeStampFile="False" Encoding="utf-8" />
+    <JsonExport FilePath="" UseDefaultPath="True" IsTimeStampFile="False" Encoding="utf-8" IsEmbedFiles="False" />
+    <DatabaseExport DatabaseConnectionId="00000000-0000-0000-0000-000000000000" IsEmbedFiles="False" IsExportDebugData="False" IsNeverDeleteExternalData="False" KeyType="Guid" IsSharedDatabaseTables="False" IsAddToExistingData="False" AllowDropSchema="WhenTruncatingData" IsSeparateHistoricalData="True" IsKeepHistoricalData="False" />
+    <ScriptExport>
+      <Script IsEnabled="True" Id="855a4bf0-88df-42e4-aace-6b61e6b04645" ScriptLanguage="Csharp" UseTemplateReference="True" TemplatePath="DataExport\Csharp\ICAS General Export Script.cgt">
+        <CsharpScript>using System;
+using System.IO;
+using System.Globalization;
+using System.Collections.Generic;
+using Sequentum.ContentGrabber.Api;
+using Sequentum.ContentGrabber.Commands;
+
+public class Script
+{
+	public static bool ExportData(DataExportArguments args)
+	{
+		Dictionary&lt;string, int&gt; crawlingCount = new Dictionary&lt;string, int&gt;();
+		string configDatabase = "configDB";
+		string targetDatabase = "";
+		string targetTable = "";
+		string competitorSiteCode = args.GlobalData.GetString("CompetitorSiteCode");
+		string country = "";
+		string crawlingUrl = "";
+		string insertSQL = "";
+		
+		IExportReader dataReader = args.Data.GetTable();
+		
+		if (dataReader.Read()) {
+			country = dataReader.GetStringValue("Country");
+			targetDatabase = country + "_CompetitorJobsDB";
+			targetTable = "competitor_jobs_" + country;
+
+			IConnection connectionTargetDB = args.GetDatabaseConnection(targetDatabase);
+       		connectionTargetDB.OpenDatabase();
+			
+			try {
+				do {
+					if (dataReader.GetStringValue("Posted Date") != "") {
+						insertSQL = "INSERT INTO " + targetTable + " ([competitor_site_code],[country_id],[posted_date],[position_title],[company_name],[location],[ad_url],[industry],[career_level],[specialization],[origin],[remarks]) " +
+							"SELECT " + competitorSiteCode + ",'" + country + "',@posted_date,@position_title,@company_name,@location,@ad_url,@industry,@career_level,@specialization,@origin,@remarks " +
+							"WHERE NOT EXISTS (SELECT 1 FROM " + targetTable + "(NOLOCK) WHERE ad_url = '" + dataReader.GetStringValue("Url").Substring(0, Math.Min(350, dataReader.GetStringValue("Url").Length)).Replace("'", "''") + "')";
+						
+						if (dataReader.GetStringValue("Remarks") != "") {
+							insertSQL += " AND NOT EXISTS (SELECT 1 FROM " + targetTable + "(NOLOCK) WHERE remarks = '" + dataReader.GetStringValue("Remarks").Substring(0, Math.Min(400, dataReader.GetStringValue("Remarks").Length)).Replace("'", "''") + "')";
+						}
+						
+						ICommand insertCommand = connectionTargetDB.GetNewCommand();
+						insertCommand.SetSql(insertSQL);
+						
+						insertCommand.AddParameterWithValue("@posted_date", DateTime.Parse(dataReader.GetStringValue("Posted Date")), CaptureDataType.DateTime);
+						insertCommand.AddParameterWithValue("@position_title", dataReader.GetStringValue("Position Title").Substring(0, Math.Min(200, dataReader.GetStringValue("Position Title").Length)).Replace("'", "''"), CaptureDataType.ShortText);
+						insertCommand.AddParameterWithValue("@company_name", dataReader.GetStringValue("Company Name").Substring(0, Math.Min(100, dataReader.GetStringValue("Company Name").Length)).Replace("'", "''"), CaptureDataType.ShortText);
+						insertCommand.AddParameterWithValue("@location", dataReader.GetStringValue("Location").Substring(0, Math.Min(200, dataReader.GetStringValue("Location").Length)).Replace("'", "''"), CaptureDataType.ShortText);
+						insertCommand.AddParameterWithValue("@ad_url", dataReader.GetStringValue("Url").Substring(0, Math.Min(350, dataReader.GetStringValue("Url").Length)).Replace("'", "''"), CaptureDataType.ShortText);
+						insertCommand.AddParameterWithValue("@industry", dataReader.GetStringValue("Industry").Substring(0, Math.Min(150, dataReader.GetStringValue("Industry").Length)).Replace("'", "''"), CaptureDataType.ShortText);
+						insertCommand.AddParameterWithValue("@career_level", dataReader.GetStringValue("Career Level").Substring(0, Math.Min(50, dataReader.GetStringValue("Career Level").Length)).Replace("'", "''"), CaptureDataType.ShortText);
+						insertCommand.AddParameterWithValue("@specialization", dataReader.GetStringValue("Specialization").Substring(0, Math.Min(150, dataReader.GetStringValue("Specialization").Length)).Replace("'", "''"), CaptureDataType.ShortText);
+						insertCommand.AddParameterWithValue("@origin", dataReader.GetStringValue("Origin").Substring(0, Math.Min(150, dataReader.GetStringValue("Origin").Length)).Replace("'", "''"), CaptureDataType.ShortText);
+						insertCommand.AddParameterWithValue("@remarks", dataReader.GetStringValue("Remarks").Substring(0, Math.Min(400, dataReader.GetStringValue("Remarks").Length)).Replace("'", "''"), CaptureDataType.ShortText);
+						insertCommand.ExecuteNonQuery();
+						
+						crawlingUrl = dataReader.GetStringValue("Crawling Url");
+						if (crawlingCount.ContainsKey(crawlingUrl)) {
+							crawlingCount[crawlingUrl] += 1;
+						} else {
+							crawlingCount[crawlingUrl] = 1;
+						}
+					}
+				} while(dataReader.Read());
+				
+				dataReader.Close();
+				
+				IConnection connectionConfigDB = args.GetDatabaseConnection(configDatabase);
+				connectionConfigDB.OpenDatabase();
+				
+				foreach (KeyValuePair&lt;string, int&gt; record in crawlingCount) {
+					ICommand configCommand = connectionConfigDB.GetNewCommand();
+					configCommand.SetSql("UPDATE crawl_attempt SET complete_date = GETDATE(), success_flag = 1, crawl_count = " + record.Value + " WHERE id IN (SELECT TOP 1 id FROM crawl_attempt(NOLOCK) WHERE attempt_url = N'" + record.Key + "' ORDER BY attempt_date DESC)");
+					configCommand.ExecuteNonQuery();
+					
+					configCommand.SetSql("UPDATE crawling_list SET last_success_date = GETDATE() WHERE url = N'" + record.Key + "'");
+					configCommand.ExecuteNonQuery();
+				}
+				
+				return true;
+			} catch(Exception exp) {
+				args.WriteDebug(exp.Message, true, DebugMessageType.Error);
+				return false;
+			}
+		}
+		
+		return true;
+	} 
+}
+</CsharpScript>
+        <VbScript>
+        </VbScript>
+        <LibraryMethodName>
+        </LibraryMethodName>
+        <UseSharedLibrary>False</UseSharedLibrary>
+        <UseDefaultLibrary>True</UseDefaultLibrary>
+        <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+        <CustomParameter>
+        </CustomParameter>
+      </Script>
+    </ScriptExport>
+    <RawDataExportScript>
+      <Script IsEnabled="False" Id="3492ce18-484a-44e8-8113-f000d02e2072" ScriptLanguage="Regex" UseTemplateReference="False" TemplatePath="">
+        <CsharpScript>
+        </CsharpScript>
+        <VbScript>
+        </VbScript>
+        <LibraryMethodName>
+        </LibraryMethodName>
+        <UseSharedLibrary>False</UseSharedLibrary>
+        <UseDefaultLibrary>True</UseDefaultLibrary>
+        <CustomAssemblyFile>Sequentum.ContentGrabber.ScriptLibrary.dll</CustomAssemblyFile>
+        <CustomParameter>
+        </CustomParameter>
+      </Script>
+    </RawDataExportScript>
+  </ExportDestination>
+  <SelfContainedDetails AgentName="" AgentLogo="" AgentIcon="" AgentPassword="" AgentDescription="" IsAgentDescriptionHtml="False" CompanyName="" CompanyLogo="" CompanyWeb="" CompanyEmail="" CompanyAddress="" CompanyDescription="" IsCompanyDescriptionHtml="False" IsShowDefaultDescription="True" IsMB="False" TemplateTheme="PlainWhite" TemplateFilePath="C:\Program Files\Sequentum\Content Grabber 2\Resources\SelfContained\Docs" IsShowDataVisualizationMenu="False" IsShowAboutMenu="True" IsShowHelpMenu="True" IsShowConfigurationMenus="True" IsShowScheduleMenu="True" IsShowNotificationsMenu="True" IsShowDataConfigurationMenu="True" IsShowInputValuesMenu="True" IsShowProxiesMenu="True" />
+  <RandomPageDelays UseRandomDelays="True" MinDelayMillisecond="7000" MaximumDelayMillisecond="12000" />
+  <DatabaseConnections />
+  <AssemblyReferences />
+  <InputParameters>
+    <InputParameter Name="CompetitorSiteCode" Value="17" />
+    <InputParameter Name="Mod" Value="1" />
+    <InputParameter Name="ModValue" Value="0" />
+  </InputParameters>
+</Agent>
